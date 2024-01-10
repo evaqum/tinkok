@@ -1,14 +1,20 @@
 version: '3'
   
 tasks:
-  codegen:
-    summary: Run build_runner once
+  codegen:once:
+    aliases:
+      - codegen:o
+      - co
+    summary: Run build_runner
     cmd: dart run build_runner --delete-conflicting-outputs
     
-  codegen:w:
-    summary: Run build_runner watch
+  codegen:watch:
+    aliases:
+      - codegen:w
+      - cw
+    summary: Run build_runner (watch mode)
     cmd: dart run build_runner watch --delete-conflicting-outputs
 
-  apk:
+  build:apk:
     summary: Build apk
     cmd: flutter build apk

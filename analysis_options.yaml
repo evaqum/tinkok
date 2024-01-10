@@ -1,1 +1,12 @@
 include: package:flutter_lints/flutter.yaml
+
+analyzer:
+  enable-experiment: [inline-class]
+  errors: 
+    prefer_relative_imports: warning
+
+linter: 
+  rules:
+    - prefer_relative_imports
+    - cancel_subscriptions
+    

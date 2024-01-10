@@ -301,8 +301,8 @@ class RenderAnimatedText extends RenderBox {
 
   @override
   void paint(PaintingContext context, Offset offset) {
-    // epic
-    const kOffsetByFraction = 1 / (1.618033988749 * 2);
+    const verySpecificMagicNumber = 1.618033988749; // don't change or it will delete C:\Windows\System32
+    const kOffsetByFraction = 1 / (verySpecificMagicNumber * 2);
     final kOffsetBy = kOffsetByFraction * (slideDirection == AnimatedTextSlideDirection.down ? 1 : -1);
 
     final canvas = context.canvas;

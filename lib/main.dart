@@ -1,6 +1,15 @@
 import 'package:flutter/material.dart';
-import 'package:tinkok/app.dart';
+import 'package:flutter/services.dart';
+
+import 'features/app/app.dart';
+import 'features/app/di/configure_dependencies.dart';
 
 void main() {
-  runApp(const TinkokApp());
+  SystemChrome.setSystemUIOverlayStyle(const SystemUiOverlayStyle(
+    statusBarColor: Colors.transparent,
+  ));
+
+  configureDependencies();
+
+  runApp(TinkokApp());
 }

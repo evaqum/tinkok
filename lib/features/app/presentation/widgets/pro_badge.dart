@@ -11,7 +11,7 @@ class ProBadge extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Container(
+    return DecoratedBox(
       decoration: const ShapeDecoration(
         shape: StadiumBorder(
           side: BorderSide(
@@ -21,17 +21,19 @@ class ProBadge extends StatelessWidget {
         ),
         color: Colors.black,
       ),
-      padding: const EdgeInsets.symmetric(
-        horizontal: 4.0,
-        vertical: 2.0,
-      ),
-      child: Text(
-        textOverride ?? 'PRO',
-        style: GoogleFonts.lexendZetta(
-          height: 1.0,
-          letterSpacing: -2,
-          fontSize: 8.0,
-          fontWeight: FontWeight.w900,
+      child: Padding(
+        padding: const EdgeInsets.symmetric(
+          horizontal: 4.0,
+          vertical: 2.0,
+        ),
+        child: Text(
+          textOverride ?? 'PRO',
+          style: GoogleFonts.lexendZetta(
+            height: 1.0,
+            letterSpacing: -2,
+            fontSize: 8.0,
+            fontWeight: FontWeight.w900,
+          ),
         ),
       ),
     );

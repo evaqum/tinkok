@@ -124,7 +124,7 @@ class _GradientMaskContainerPainter extends CustomPainter {
         );
     }
 
-    throw UnimplementedError('Unknown gradient type: $gradient');
+    throw UnimplementedError('Unexpected gradient type: ${gradient.runtimeType}');
   }
 
   @override
