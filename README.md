@@ -8,7 +8,7 @@ The main focus of the app is clean UI with some funny animations so everything e
 
 ## Gallery
 
-Props to @evaqum for designing this, truly the only person I can <span style="font-size:0.5em">sometimes</span> trust
+Props to [@evaqum](https://github.com/evaqum) for designing this, truly the only person I can <span style="font-size:0.5em">sometimes</span> trust
 
 <p float="left">
 <img src=".github/assets/screenshot0.jpg" width="32%">
@@ -18,8 +18,9 @@ Props to @evaqum for designing this, truly the only person I can <span style="fo
 <p float="left">
 <img src=".github/assets/screenshot3.jpg" width="32%">
 <img src=".github/assets/screenshot4.jpg" width="32%">
-<video src=".github/assets/rec.mp4" width="32%">
 </p>
+
+https://github.com/evaqum/tinkok/assets/54950997/94be487e-414a-4774-a7a0-dc436a9c9180
 
 More things coming in like a year.
 
